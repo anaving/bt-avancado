@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogsmead</title>
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="/lib/bootstrap.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="navbar navbar-expand-lg">
+                        <h1>Hogsmead</h1>
+                        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu" type="button">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                            <ul class="nav navbar-nav nav-pills">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#inicio">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#produtos">Livros</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#promocoes">Filmes</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#contato">Galeria</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div> 
+                </div>   
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                <div class="carousel inner">
+                    <div data-bs-interval="3000" class="carousel-item active" >
+                        <img class="d-block w-100" src="/img/castle.jpg" alt="">
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item" >
+                        <img class="d-block w-100" src="/img/universal-studios.jpg" alt="">
+                    </div>
+                </div>
+                <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <h2>Livros</h2>
+            <div class="col-12 col-md-6 col-lg">
+                <div class="card">
+                    <img src="/img/livro03.jpg" >
+                    <div class="card-body">
+                        <h4 class="card-title">Harry Potter e as Relíquias da Morte</h4>
+                        <h5 class="card-subtitle">Autora: J.K. Rowling</h5>
+                        <p class="card-text">
+                            Sinopse: Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto consequuntur delectus et dolore laboriosam pariatur maxime error! Natus sequi nam sint earum fugit, ratione modi quibusdam enim, ex nesciunt autem?
+                        </p>
+                        <a href="#" class="btn btn-primary">Leia mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg">
+                <div class="card">
+                    <img src="/img/livro01.jpg" >
+                    <div class="card-body">
+                        <h4 class="card-title">Harry Potter e a Ordem da Fênix</h4>
+                        <h5 class="card-subtitle">Autora: J.K. Rowling</h5>
+                        <p class="card-text">
+                            Sinopse: Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto consequuntur delectus et dolore laboriosam pariatur maxime error! Natus sequi nam sint earum fugit, ratione modi quibusdam enim, ex nesciunt autem?
+                        </p>
+                        <a href="#" class="btn btn-primary">Leia mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg">
+                <div class="card">
+                    <img src="/img/livro02.jpg" >
+                    <div class="card-body">
+                        <h4 class="card-title">Harry Potter e o Prisioneiro de Azkaban</h4>
+                        <h5 class="card-subtitle">Autora: J.K. Rowling</h5>
+                        <p class="card-text">
+                            Sinopse: Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto consequuntur delectus et dolore laboriosam pariatur maxime error! Natus sequi nam sint earum fugit, ratione modi quibusdam enim, ex nesciunt autem?
+                        </p>
+                        <a href="#" class="btn btn-primary">Leia mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/lib/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
